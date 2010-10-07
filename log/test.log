@@ -1,0 +1,718 @@
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (10.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (10.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Columns (10.0ms)[0m   [0mSHOW FIELDS FROM `movies`[0m
+Rendering movies/show.html.erb
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+Rendering movies/new.html.erb
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+Rendering movies/index.html.erb
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+Rendering movies/edit.html.erb
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mMovie Create (0.0ms)[0m   [0mINSERT INTO `movies` (`rating`, `updated_at`, `title`, `created_at`) VALUES(1, '2010-04-06 22:26:57', 'value for title', '2010-04-06 22:26:57')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (80.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+
+
+Processing MoviesController#destroy (for 0.0.0.0 at 2010-04-06 23:26:57) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/movies
+Completed in 20ms (DB: 80) | 302 Found [http://test.host/movies/37]
+  [4;35;1mSQL (10.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+
+
+Processing MoviesController#destroy (for 0.0.0.0 at 2010-04-06 23:26:57) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies
+Completed in 0ms (DB: 10) | 302 Found [http://test.host/movies/1]
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-04-06 23:26:57) [PUT]
+  Parameters: {"id"=>"37", "movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 10ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37?movie%5Bthese%5D=params]
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-04-06 23:26:57) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/1]
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-04-06 23:26:57) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/movies/1]
+  [4;35;1mSQL (10.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-04-06 23:26:57) [PUT]
+  Parameters: {"id"=>"37", "movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 20ms (View: 10, DB: 10) | 200 OK [http://test.host/movies/37?movie%5Bthese%5D=params]
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-04-06 23:26:57) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies/1012
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/movies/1]
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-04-06 23:26:57) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies/1013
+Completed in 10ms (DB: 0) | 302 Found [http://test.host/movies/1]
+  [4;35;1mSQL (10.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-04-06 23:26:57) [POST]
+  Parameters: {"movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 10ms (View: 0, DB: 10) | 200 OK [http://test.host/movies?movie%5Bthese%5D=params]
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-04-06 23:26:57) [POST]
+  Parameters: {"movie"=>{}}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 10ms (View: 0, DB: 0) | 200 OK [http://test.host/movies?]
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-04-06 23:26:57) [POST]
+  Parameters: {"movie"=>{"these"=>"params"}}
+Redirected to http://test.host/movies/1016
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/movies?movie%5Bthese%5D=params]
+  [4;35;1mSQL (20.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-04-06 23:26:57) [POST]
+  Parameters: {"movie"=>{}}
+Redirected to http://test.host/movies/1017
+Completed in 10ms (DB: 20) | 302 Found [http://test.host/movies?]
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+
+
+Processing MoviesController#edit (for 0.0.0.0 at 2010-04-06 23:26:58) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37/edit]
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (10.0ms)[0m   [0;1mBEGIN[0m
+
+
+Processing MoviesController#new (for 0.0.0.0 at 2010-04-06 23:26:58) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 10ms (View: 0, DB: 10) | 200 OK [http://test.host/movies/new]
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+
+
+Processing MoviesController#show (for 0.0.0.0 at 2010-04-06 23:26:58) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/movies
+Rendering movies/show
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37]
+  [4;35;1mSQL (10.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+
+
+Processing MoviesController#index (for 0.0.0.0 at 2010-04-06 23:26:58) [GET]
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 0ms (View: 0, DB: 10) | 200 OK [http://test.host/movies]
+  [4;35;1mSQL (10.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Columns (10.0ms)[0m   [0mSHOW FIELDS FROM `movies`[0m
+Rendering movies/show.html.erb
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+Rendering movies/new.html.erb
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+Rendering movies/index.html.erb
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+Rendering movies/edit.html.erb
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#destroy (for 0.0.0.0 at 2010-04-06 23:33:07) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/movies
+Completed in 10ms (DB: 0) | 302 Found [http://test.host/movies/37]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#destroy (for 0.0.0.0 at 2010-04-06 23:33:07) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/movies/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-04-06 23:33:07) [PUT]
+  Parameters: {"id"=>"37", "movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37?movie%5Bthese%5D=params]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-04-06 23:33:07) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-04-06 23:33:07) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 10ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-04-06 23:33:07) [PUT]
+  Parameters: {"id"=>"37", "movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37?movie%5Bthese%5D=params]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-04-06 23:33:07) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies/1012
+Completed in 20ms (DB: 0) | 302 Found [http://test.host/movies/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-04-06 23:33:07) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies/1013
+Completed in 20ms (DB: 0) | 302 Found [http://test.host/movies/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-04-06 23:33:07) [POST]
+  Parameters: {"movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 20ms (View: 10, DB: 0) | 200 OK [http://test.host/movies?movie%5Bthese%5D=params]
+  [4;36;1mSQL (10.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-04-06 23:33:08) [POST]
+  Parameters: {"movie"=>{}}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 10ms (View: 10, DB: 10) | 200 OK [http://test.host/movies?]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-04-06 23:33:08) [POST]
+  Parameters: {"movie"=>{"these"=>"params"}}
+Redirected to http://test.host/movies/1016
+Completed in 20ms (DB: 0) | 302 Found [http://test.host/movies?movie%5Bthese%5D=params]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-04-06 23:33:08) [POST]
+  Parameters: {"movie"=>{}}
+Redirected to http://test.host/movies/1017
+Completed in 20ms (DB: 0) | 302 Found [http://test.host/movies?]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (10.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#edit (for 0.0.0.0 at 2010-04-06 23:33:08) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 10ms (View: 0, DB: 10) | 200 OK [http://test.host/movies/37/edit]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#new (for 0.0.0.0 at 2010-04-06 23:33:08) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/movies/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#show (for 0.0.0.0 at 2010-04-06 23:33:08) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/movies
+Rendering movies/show
+Completed in 20ms (View: 10, DB: 0) | 200 OK [http://test.host/movies/37]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#index (for 0.0.0.0 at 2010-04-06 23:33:08) [GET]
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 10ms (View: 0, DB: 0) | 200 OK [http://test.host/movies]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mMovie Create (0.0ms)[0m   [0mINSERT INTO `movies` (`rating`, `updated_at`, `title`, `created_at`) VALUES(1, '2010-04-06 22:33:08', 'value for title', '2010-04-06 22:33:08')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (50.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Columns (10.0ms)[0m   [0mSHOW FIELDS FROM `movies`[0m
+Rendering movies/show.html.erb
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (10.0ms)[0m   [0mBEGIN[0m
+Rendering movies/new.html.erb
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+Rendering movies/index.html.erb
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (10.0ms)[0m   [0mBEGIN[0m
+Rendering movies/edit.html.erb
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#destroy (for 0.0.0.0 at 2010-04-06 23:34:12) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/movies
+Completed in 10ms (DB: 0) | 302 Found [http://test.host/movies/37]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#destroy (for 0.0.0.0 at 2010-04-06 23:34:12) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/movies/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-04-06 23:34:12) [PUT]
+  Parameters: {"id"=>"37", "movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/movies/37?movie%5Bthese%5D=params]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-04-06 23:34:12) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 10ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-04-06 23:34:12) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-04-06 23:34:12) [PUT]
+  Parameters: {"id"=>"37", "movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 10ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37?movie%5Bthese%5D=params]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-04-06 23:34:12) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies/1012
+Completed in 10ms (DB: 0) | 302 Found [http://test.host/movies/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-04-06 23:34:12) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies/1013
+Completed in 20ms (DB: 0) | 302 Found [http://test.host/movies/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (10.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-04-06 23:34:12) [POST]
+  Parameters: {"movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 10ms (View: 10, DB: 10) | 200 OK [http://test.host/movies?movie%5Bthese%5D=params]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-04-06 23:34:12) [POST]
+  Parameters: {"movie"=>{}}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/movies?]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-04-06 23:34:12) [POST]
+  Parameters: {"movie"=>{"these"=>"params"}}
+Redirected to http://test.host/movies/1016
+Completed in 20ms (DB: 0) | 302 Found [http://test.host/movies?movie%5Bthese%5D=params]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (10.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-04-06 23:34:12) [POST]
+  Parameters: {"movie"=>{}}
+Redirected to http://test.host/movies/1017
+Completed in 10ms (DB: 10) | 302 Found [http://test.host/movies?]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#edit (for 0.0.0.0 at 2010-04-06 23:34:12) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37/edit]
+  [4;36;1mSQL (10.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#new (for 0.0.0.0 at 2010-04-06 23:34:12) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 10ms (View: 10, DB: 10) | 200 OK [http://test.host/movies/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#show (for 0.0.0.0 at 2010-04-06 23:34:12) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/movies
+Rendering movies/show
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#index (for 0.0.0.0 at 2010-04-06 23:34:12) [GET]
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 10ms (View: 0, DB: 0) | 200 OK [http://test.host/movies]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (10.0ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mMovie Create (0.0ms)[0m   [0mINSERT INTO `movies` (`rating`, `updated_at`, `title`, `created_at`) VALUES(1, '2010-04-06 22:34:12', 'value for title', '2010-04-06 22:34:12')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (40.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (10.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMovie Columns (10.0ms)[0m   [0mSHOW FIELDS FROM `movies`[0m
+Rendering movies/show.html.erb
+  [4;36;1mSQL (10.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+Rendering movies/new.html.erb
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+Rendering movies/index.html.erb
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+Rendering movies/edit.html.erb
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#destroy (for 0.0.0.0 at 2010-05-06 23:22:00) [DELETE]
+  Parameters: {"id"=>"37"}
+Redirected to http://test.host/movies
+Completed in 10ms (DB: 0) | 302 Found [http://test.host/movies/37]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#destroy (for 0.0.0.0 at 2010-05-06 23:22:00) [DELETE]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/movies/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-05-06 23:22:00) [PUT]
+  Parameters: {"id"=>"37", "movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37?movie%5Bthese%5D=params]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-05-06 23:22:00) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/movies/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-05-06 23:22:00) [PUT]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-05-06 23:22:00) [PUT]
+  Parameters: {"id"=>"37", "movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 10ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37?movie%5Bthese%5D=params]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-05-06 23:22:00) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies/1012
+Completed in 10ms (DB: 0) | 302 Found [http://test.host/movies/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#update (for 0.0.0.0 at 2010-05-06 23:22:00) [PUT]
+  Parameters: {"id"=>"1"}
+Redirected to http://test.host/movies/1013
+Completed in 20ms (DB: 0) | 302 Found [http://test.host/movies/1]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-05-06 23:22:00) [POST]
+  Parameters: {"movie"=>{"these"=>"params"}}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/movies?movie%5Bthese%5D=params]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-05-06 23:22:00) [POST]
+  Parameters: {"movie"=>{}}
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/movies?]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-05-06 23:22:00) [POST]
+  Parameters: {"movie"=>{"these"=>"params"}}
+Redirected to http://test.host/movies/1016
+Completed in 30ms (DB: 0) | 302 Found [http://test.host/movies?movie%5Bthese%5D=params]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#create (for 0.0.0.0 at 2010-05-06 23:22:00) [POST]
+  Parameters: {"movie"=>{}}
+Redirected to http://test.host/movies/1017
+Completed in 10ms (DB: 0) | 302 Found [http://test.host/movies?]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#edit (for 0.0.0.0 at 2010-05-06 23:22:00) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/movies
+Rendering movies/edit
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/37/edit]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#new (for 0.0.0.0 at 2010-05-06 23:22:00) [GET]
+Rendering template within layouts/movies
+Rendering movies/new
+Completed in 10ms (View: 0, DB: 0) | 200 OK [http://test.host/movies/new]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#show (for 0.0.0.0 at 2010-05-06 23:22:00) [GET]
+  Parameters: {"id"=>"37"}
+Rendering template within layouts/movies
+Rendering movies/show
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/movies/37]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+
+
+Processing MoviesController#index (for 0.0.0.0 at 2010-05-06 23:22:00) [GET]
+Rendering template within layouts/movies
+Rendering movies/index
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/movies]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (10.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (10.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mMovie Create (0.0ms)[0m   [0mINSERT INTO `movies` (`rating`, `updated_at`, `title`, `created_at`) VALUES(1, '2010-05-06 22:22:01', 'value for title', '2010-05-06 22:22:01')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (140.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mROLLBACK[0m

@@ -1,0 +1,22 @@
+class FormBuilderValidationReflector
+
+
+ def self.is_required_field?(klass, field_name)
+   return false unless klass.respond_to?(:reflect_on_validations_for)
+
+   field = find_association_name_for(klass, field_name)
+   validations = klass.reflect_on_validations_for(field)
+   return validations.any?{|v| v.macro == :validates_presence_of}
+ end
+
+ private
+
+ def self.find_association_name_for(klass, field_name)
+    association =
+klass.reflect_on_all_associations(:belongs_to).select do |association|
+      association.primary_key_name.to_sym == field_name.to_sym
+    end.first
+   return association.nil? ? field_name :  association.name
+ end
+
+end
